@@ -1073,7 +1073,7 @@
 		background-image: url("images/bg02.png");
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #5d5d5d;
+		/*color: #1300BD;*/
 	}
 
 		body.is-loading * {
@@ -2040,7 +2040,7 @@
 
 				#intro p {
 					margin: 0;
-					    background-color: rgba(250,250,250,0.6);
+					    background-color: rgba(250,250,250,0.7);
     padding: 10px;
 				}
 
