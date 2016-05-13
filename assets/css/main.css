@@ -2049,7 +2049,7 @@
 					z-index: 1;
 				}
 
-					#intro .middle:before {
+					/*#intro .middle:before {
 						content: '';
 						width: 32px;
 						height: 100%;
@@ -2059,9 +2059,9 @@
 						display: block;
 						z-index: -1;
 						box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
-					}
+					}*/
 
-					#intro .middle:after {
+					/*#intro .middle:after {
 						content: '';
 						width: 32px;
 						height: 100%;
@@ -2071,7 +2071,7 @@
 						display: block;
 						z-index: -1;
 						box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
-					}
+					}*/
 
 				#intro .button {
 					min-width: 12em;
