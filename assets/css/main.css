@@ -24,7 +24,6 @@
 
 	body {
 		line-height: 1;
-		background: blue;
 	}
 
 	ol, ul {
@@ -1684,7 +1683,7 @@
 
 	#header-wrapper {
 		position: relative;
-		background: #ffffff;
+		background-image: url("http://wallpapercave.com/wp/MAmPaLt.jpg");
 		border-bottom: solid 1px #ccc;
 	}
 
