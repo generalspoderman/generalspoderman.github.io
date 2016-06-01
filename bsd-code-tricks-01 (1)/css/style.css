@@ -1,0 +1,64 @@
+body {
+  background: lightblue;
+}
+
+.container {
+  margin: 100px auto 0;
+  width: 192px;
+}
+
+.container > div {
+  background: green;
+  float: left;
+  height: 36px;
+  margin-right: 12px;
+  width: 36px;
+  margin-top: 500px;
+}
+
+.container > div {
+  animation: hop 2s infinite;
+}
+
+.container > div:nth-child(1) {
+  animation-delay: .1s;
+}
+
+.container > div:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.container > div:nth-child(3) {
+  animation-delay: .3s;
+}
+
+.container > div:nth-child(4) {
+  animation-delay: .4s;
+}
+
+@keyframes hop {
+  0% {
+    margin-top: 100px;
+    border-radius: 10px 20px;
+    transform: rotate(360deg);
+  }
+  25% {
+    margin-top: 500px;
+    background: red;
+    border-radius: 10px 20px;
+    transform: rotate(720deg);
+  }
+  50% {
+    margin-top: 500px;
+  }
+  75% {
+    margin-top: 100px;
+    transform: rotate(1080deg);
+  }
+  100% {
+    margin-top: 100px;
+    background: blue;
+    border-radius: 10px 20px;
+    transform: rotate(1440deg);
+  }
+}
